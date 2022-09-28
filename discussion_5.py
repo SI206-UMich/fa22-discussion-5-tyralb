@@ -63,7 +63,9 @@ class TestAllMethods(unittest.TestCase):
 
 	## Check to see whether count_a works
 	def test_count_a(self):
-		pass
+		string = "banana"
+		self.assertEqual(count_a(string),3)
+		# pass
 
 
 	## Check to see whether you can add an item to the warehouse
